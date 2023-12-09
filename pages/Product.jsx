@@ -1,11 +1,90 @@
 import styles from './Product.module.css';
-import images from '../products-media.json';
 import { useParams } from 'react-router-dom';
 
 const Product = () => {
   const { id } = useParams();
 
   const produtos = [
+    {
+      "id": 1,
+      "nome": "Camiseta Manga Curta",
+      "src": "camiseta-mc.svg",
+      "tamanhosDisponiveis": ["Tamanhos Personalizados"],
+      "Description": ["Acima de XGG são acrescentados 10 reais ao valor da peça. Disponível com ou sem faixa refletiva."]
+    },
+    {
+      "id": 2,
+      "nome": "Camisa Social",
+      "src": "camisa-social.svg",
+      "tamanhosDisponiveis": ["Tamanhos Personalizados"],
+      "Description": ["Acima de XGG são acrescentados 10 reais ao valor da peça."]
+    },
+    {
+        "id": 3,
+        "nome": "Camiseta Manga Longa",
+        "src": "camiseta-ml.svg",
+        "tamanhosDisponiveis": ["Tamanhos Personalizados"],
+        "Description": ["Acima de XGG são acrescentados 10 reais ao valor da peça. Disponível com ou sem faixa refletiva."]
+      },
+      {
+        "id": 4,
+        "nome": "Jaleco Brim Manga Longa",
+        "src": "jaleco-brim.svg",
+        "tamanhosDisponiveis": ["Tamanhos Personalizados"],
+        "Description": ["Acima de XGG são acrescentados 10 reais ao valor da peça. Disponível com ou sem faixa refletiva."]
+      },
+      {
+        "id": 5,
+        "nome": "Avental em Napa",
+        "src": "avental-napa.svg",
+        "tamanhosDisponiveis": ["0,70 x 1m", "0,70 x 1,2m"],
+        "Description": ["Acima de XGG são acrescentados 10 reais ao valor da peça. Disponível com ou sem faixa refletiva."]
+      },
+      {
+        "id": 6,
+        "nome": "Calça Brim",
+        "src": "calca-brim.svg",
+        "tamanhosDisponiveis": ["Tamanhos Personalizados"],
+        "Description": ["Acima de 50 são acrescentados 10 reais ao valor da peça. Disponível com ou sem faixa refletiva."]
+      },
+      {
+        "id": 7,
+        "nome": "Jaqueta",
+        "src": "jaqueta.svg",
+        "tamanhosDisponiveis": ["Tamanhos Personalizados"],
+        "Description": ["Acima de XGG são acrescentados 10 reais ao valor da peça. Disponível com ou sem faixa refletiva."]
+      },
+      {
+        "id": 8,
+        "nome": "Jaleco Hospitalar Gola Padre Feminino",
+        "src": "jaleco-fem.svg",
+        "tamanhosDisponiveis": ["Tamanhos Personalizados"],
+        "Description": ["Acima de XGG são acrescentados 10 reais ao valor da peça."]
+      },
+      {
+        "id": 9,
+        "nome": "Jaleco Hospitalar Masculino",
+        "src": "jaleco-masc.svg",
+        "tamanhosDisponiveis": ["Tamanhos Personalizados"],
+        "Description": ["Acima de XGG são acrescentados 10 reais ao valor da peça."]
+      },
+      {
+        "id": 10,
+        "nome": "Jaleco Hospitalar Feminino",
+        "src": "jaleco-fem-simples.svg",
+        "tamanhosDisponiveis": ["Tamanhos Personalizados"],
+        "Description": ["Acima de XGG são acrescentados 10 reais ao valor da peça."]
+      },
+      {
+        "id": 11,
+        "nome": "Colete Obras",
+        "src": "colete-obras.svg",
+        "tamanhosDisponiveis": ["Tamanhos Personalizados"],
+        "Description": ["Acima de XGG são acrescentados 10 reais ao valor da peça. Disponível com ou sem faixa refletiva."]
+      }
+  ]
+
+  const images = [
     {
         "id": 1,
         "media": ["/camiseta-mc.svg", "/camiseta-mc-2.svg", "/camiseta-mc-3.svg", "/camiseta-mc-4.svg"]
