@@ -1,0 +1,43 @@
+/* Estilos padrão */
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    height: 5em;
+    color: #fff;
+    gap: 1em;
+    font-size: 1.5em;
+}
+
+.nav a {
+    margin: 0 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.img {
+    height: 4em;
+}
+
+.nav a:hover {
+    color: #CCC;
+}
+
+.active {
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        height: auto;
+        font-size: .5em;
+    }
+
+    .nav a {
+        padding: 5px 0;
+    }
+}

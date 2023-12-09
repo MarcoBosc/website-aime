@@ -1,0 +1,129 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding-top: 2em;
+    font-size: 2vw;
+    height: 100%;
+    background-color: #fafafa;
+}
+
+.h1 {
+    color: #1a1a1a;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-left: 2em;
+    background-color: #fafafa;
+}
+
+.productCard {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    height: fit-content;
+    width: 12em;
+    height: 16em;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: #1a1a1a;
+    margin: 1em;
+    line-height: 1.4;
+    border-radius: 20px;
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.text {
+    margin: 10px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.h2 {
+    font-size: 1.3vw;
+    margin-bottom: 5px;
+}
+
+.size {
+    padding: 10px;
+    background-color: #f0eded;
+    width: fit-content;
+    height: 2em;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    font-size: .8vw;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 1vw;
+}
+
+.btnDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.button {
+    width: 8em;
+    height: 3em;
+    font-size: 1vw;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: f0eded;
+}
+
+.button:hover {
+    background-color: #e4e2e2;
+}
+
+.productCard:hover {
+    width: 14em;
+    height: 17em;
+}
+
+@media (max-width: 508px) {
+    .productCard {
+        height: 18em;
+    }
+
+    .text {
+        padding: 0;
+    }
+    
+    .h2 {
+        margin-bottom: 0;
+    }
+    
+    .size {
+        margin-bottom: 0;
+        padding: 2px;
+        margin: 2px 0;
+    }
+
+    .productCard:hover {
+        height: 20em;
+    }
+}

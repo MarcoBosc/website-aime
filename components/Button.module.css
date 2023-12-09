@@ -1,0 +1,56 @@
+.bgButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    cursor: pointer;
+    height: auto;
+    width: 40em;
+    padding: 0.5em;
+    margin-top: 20px;
+  }
+  
+.link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+  
+.button {
+    border: none;
+    background-color: #fafafa;
+    font-size: 3em;
+    width: 100%;
+    cursor: pointer;
+}
+
+  
+@media (max-width: 798px) {
+    .button {
+      font-size: 1.5em; /* Defina o tamanho da fonte desejado para telas menores */
+    }
+}
+
+@media (max-width: 798px) {
+    .bgButton {
+        width: 25em;
+    }
+}
+
+@media (max-width: 600px) {
+    .bgButton {
+        width: 18em;
+    }
+    .button {
+      font-size: 1em; /* Defina o tamanho da fonte desejado para telas menores */
+    }
+}
+
+@media (max-width: 350px) {
+    .bgButton {
+        width: 12em;
+    }
+    .button {
+      font-size: 0.8em; /* Defina o tamanho da fonte desejado para telas menores */
+    }
+}

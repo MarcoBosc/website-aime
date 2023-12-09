@@ -1,0 +1,198 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    min-height: 100vh;
+    line-height: 1.4;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    font-size: 1.5vw;
+    width: 50%;
+    height: 100%;
+    padding: 2em;
+}
+
+.textLeft {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: column nowrap; 
+}
+
+.h1 {
+    font-size: 4vw;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+.success, .error {
+    background-color: rgb(27, 139, 27);
+    color: white;
+    margin-bottom: 5px;
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+.error {
+    background-color: rgb(167, 51, 51);
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    padding: 2em;
+    width: 65%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding: 2em;
+    max-width: 100%;
+}
+
+.inputTitle {
+    color: #414040;
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+}
+
+.button {
+    font-size: 1vw;
+    width: 8em;
+    height: 2.5em;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(231, 200, 162);
+}
+
+.contactText {
+    font-size: 3vw;
+}
+
+.form input, textarea{
+    padding: 0.5em;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1.5px solid #b9b8b8;
+    height: 20em;
+    font-size: 1.5em;
+}
+
+.form input{
+    height: 3.5em;
+}
+
+.socialLogo {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+
+@media (max-width: 1401px) {
+    .body {
+        flex-flow: column-reverse wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .left {
+        margin-top: 20px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .textLeft {
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+    }
+
+
+    .right {
+        padding-bottom: 0;
+        width: 100%;
+    }
+
+    .form {
+        justify-content: center;
+        width: 60%;
+    }
+
+    .button {
+        width: 30% !important;
+        font-size: 1.2vw;
+
+    }
+
+    .inputTitle {
+        font-size: 2.5vw !important;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 677px) {
+    .form {
+        justify-content: center;
+        width: 80%;
+    }
+
+    .button {
+        height: 3.5em;
+    }
+    .inputTitle {
+        font-size: 3vw !important;
+    }
+    .form input{
+        height: 2.5em;
+    }
+
+    textarea {
+        height: 13em;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .form {
+        justify-content: center;
+        width: 95%;
+    }
+
+    .button {
+        font-size: 2vw;
+        height: 4em;
+    }
+    .inputTitle {
+        font-size: 4vw !important;
+    }
+
+    .textLeft {
+        align-items: center;
+        justify-content: center;
+        font-size: 4vw;
+    }
+
+    .form input{
+        height: 2.2em;
+    }
+
+    textarea {
+        height: 8em;
+    }
+}

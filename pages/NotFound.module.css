@@ -1,0 +1,31 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    height: 100%;
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;  
+}
+
+.h1 {
+    font-size: 8em;
+}
+
+.h2 {
+    font-size: 3vw;
+}
+
+.img {
+    width: 8em;
+    padding: 5px;
+}
+
+.map {
+    padding-top: 2em;
+}

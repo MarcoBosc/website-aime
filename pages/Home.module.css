@@ -1,0 +1,131 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.VideoContent {
+    overflow: hidden;
+    width: 100%;
+    max-height: 58em;
+    display: flex;
+    transition: 1.2s ease-in-out;
+    width: 100%;  
+}
+
+
+.video {
+    width: 100%;
+    object-fit: cover;
+}
+
+.services {
+    padding-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.contactBtn {
+    border: none;
+    background-color: #1a1a1a;
+    color: #fafafa;
+    font-size: 3em;
+    width: 13.5em;
+    height: 1.5em;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+.h1{
+    font-size: 4vw;
+    line-height: 1.6;
+    font-weight: bolder;
+}
+
+.customers {
+    padding-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    max-width: 80%;
+}
+
+.centerDiv {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgCustomer {
+    max-width: 80%;
+}
+
+@media (max-width: 798px) {
+    .contactBtn {
+        font-size: 2em;
+        width: 13em;
+        height: 1.5em;
+    }
+}
+
+@media (max-width: 600px) {
+    .contactBtn {
+        font-size: 1.2em;
+        width: 16em;
+        height: 2em;
+    }
+
+    .customers {
+        padding-top: 1em;
+    }
+}
+
+@media (max-width: 350px) {
+    .contactBtn {
+        font-size: 1em;
+        width: 12em;
+        height: 2.2em;
+        margin-bottom: 0;
+    }
+
+    .customers {
+        padding-top: 2em;
+    }
+}

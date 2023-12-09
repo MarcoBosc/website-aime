@@ -1,0 +1,30 @@
+/* Estilos padrão */
+.footer {
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: #fff;
+    gap: 1em;
+    font-size: 1em;
+}
+
+.img {
+    height: 3em;
+    padding: 5px;
+}
+
+
+@media (max-width: 708px) {
+    .footer {
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 350px) {
+    .footer {
+        font-size: .6em;
+    }
+}
