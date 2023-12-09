@@ -1,10 +1,11 @@
 import styles from './Contato.module.css';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect  } from 'react';
 
 import { FaInstagram, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 import emailjs from '@emailjs/browser';
+
 
 const Contato = () => {
   const [name, setName] = useState('');
@@ -12,6 +13,10 @@ const Contato = () => {
   const [pedido, setPedido] = useState('');
   const [enviado, setEnviado] = useState(false);
   const [erro, setErro] = useState(false);
+
+  useEffect(() => {
+    emailjs.init("FQr6YZVqXBYZyLoxa");
+  }, []);
 
   function handleSubmit(e){
     e.preventDefault();
@@ -68,6 +73,9 @@ const Contato = () => {
           <button className={styles.button}>Submit</button>
         </form>
       </div>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <script type="text/javascript">
+      </script>
     </section>
   );
 };
