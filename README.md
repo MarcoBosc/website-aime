@@ -1,6 +1,6 @@
 # Landing Page Aime Uniformes
 
-A landing page da Aime Uniformes é uma aplicação web moderna desenvolvida com React JS, uma biblioteca JavaScript popular para criação de interfaces de usuário. Esta landing page foi hospedada na Amazon Web Services (AWS) para garantir escalabilidade, segurança e desempenho confiável.
+A landing page da Aime Uniformes é uma aplicação web moderna desenvolvida com React JS, uma biblioteca JavaScript popular para criação de interfaces de usuário. Esta landing page foi hospedada na Amazon Web Services (AWS) para garantir escalabilidade, segurança e desempenho confiável. Desenvolvida com o objetivo de aprimorar conhecimentos nas tecnologias envolvidas.
 
 ## AWS Services Utilizados
 
