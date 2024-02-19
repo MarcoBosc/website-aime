@@ -2,6 +2,10 @@
 
 A landing page da Aime Uniformes é uma aplicação web moderna desenvolvida com React JS, uma biblioteca JavaScript popular para criação de interfaces de usuário. Esta landing page foi hospedada na Amazon Web Services (AWS) para garantir escalabilidade, segurança e desempenho confiável. Desenvolvida com o objetivo de aprimorar conhecimentos nas tecnologias envolvidas.
 
+## Arquitetura
+
+![Arquitetura projeto Aimê Uniformes drawio](https://github.com/MarcoBosc/website-aime/assets/105826129/6a8e1c59-4423-49a8-8dcb-6ead1a781f9e)
+
 ## AWS Services Utilizados
 
 ### Amazon S3
@@ -38,4 +42,3 @@ Na etapa de entrega contínua, o GitHub Actions automatiza o processo de implant
 ## Conclusão
 
 A combinação da arquitetura na AWS com as pipelines de CI/CD do GitHub Actions proporciona uma base sólida e eficaz para a landing page da Aime Uniformes. Essa abordagem permite uma entrega de software mais rápida, confiável e segura, permitindo que a equipe de desenvolvimento concentre-se na criação de valor para os usuários finais. 
-Esse projeto foi feito como meu primeiro projeto em react e com o principal objetivo de aumentar meus estudos no deploy de websites estáticos na AWS.
