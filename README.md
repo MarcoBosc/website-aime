@@ -37,4 +37,5 @@ Na etapa de entrega contínua, o GitHub Actions automatiza o processo de implant
 
 ## Conclusão
 
-A combinação da arquitetura na AWS com as pipelines de CI/CD do GitHub Actions proporciona uma base sólida e eficaz para a landing page da Aime Uniformes. Essa abordagem permite uma entrega de software mais rápida, confiável e segura, permitindo que a equipe de desenvolvimento concentre-se na criação de valor para os usuários finais.
+A combinação da arquitetura na AWS com as pipelines de CI/CD do GitHub Actions proporciona uma base sólida e eficaz para a landing page da Aime Uniformes. Essa abordagem permite uma entrega de software mais rápida, confiável e segura, permitindo que a equipe de desenvolvimento concentre-se na criação de valor para os usuários finais. 
+Esse projeto foi feito como meu primeiro projeto em react e com o principal objetivo de aumentar meus estudos no deploy de websites estáticos na AWS.
